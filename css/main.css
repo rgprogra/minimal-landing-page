@@ -287,7 +287,7 @@ textarea {
 }
 .rg-logo-container {
   text-align: center;
-  padding-top: 10em;
+  padding-top: 5em;
 }
 .rg-logo {
   width: 200px;
@@ -310,3 +310,23 @@ textarea {
   padding-right: 14px;
 }
 
+.rg-list-apps {
+  display: block;
+  text-align: center;
+  padding: 0;
+}
+.rg-list-apps li {
+  display: inline-block;
+  margin: 0 7px;
+}
+.rg-list-apps img {
+  display: inline-block;
+  max-width: 32px;
+}
+
+.rg-list-apps li a {
+  display: block;
+}
+.rg-list-apps li span {
+  display: block;
+}
